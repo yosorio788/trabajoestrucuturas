@@ -1,18 +1,15 @@
-
-#include <iostream>
-using namespace std;
+#include <stdlib.h>
 #include <stdio.h>
 
-
-int main()
-{
+int main(){
 	
-  float numero [4]={3.14,3.78,3.89,96.3}
-  for (int=0; i<=3;i++){
-  	printf("%.3f\n",numero[i]));
-  	
-  }
-
-  return 0;
-  
+	float numeros[4] = {32.583,11.239,45.781,22.237};
+	
+	for( int i=0;i<=3;i++){
+		printf("%.3f\n",numeros[i]); 
+		
+	}
+		
+	system("pause");
+	return 0;
 }
